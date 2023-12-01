@@ -9224,6 +9224,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "move-decompiler"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "aptos-framework",
+ "clap 3.2.23",
+ "datatest-stable",
+ "move-binary-format",
+ "move-bytecode-source-map",
+ "move-command-line-common",
+ "move-compiler",
+ "move-core-types",
+ "move-ir-types",
+ "move-model",
+ "move-stackless-bytecode",
+ "move-symbol-pool",
+ "uuid",
+]
+
+[[package]]
 name = "move-disassembler"
 version = "0.1.0"
 dependencies = [
@@ -14281,9 +14301,9 @@ checksum = "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a"
 
 [[package]]
 name = "uuid"
-version = "1.1.2"
+version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd6469f4314d5f1ffec476e05f17cc9a78bc7a27a6a857842170bdf8d6f98d2f"
+checksum = "5e395fcf16a7a3d8127ec99782007af141946b4795001f876d54fb0d55978560"
 dependencies = [
  "getrandom 0.2.7",
  "serde",

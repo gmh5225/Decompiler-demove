@@ -49,6 +49,7 @@ use std::{
 pub mod ast;
 mod builder;
 pub mod code_writer;
+pub mod demove_helper;  // decompiler
 pub mod exp_generator;
 pub mod exp_rewriter;
 pub mod intrinsics;
